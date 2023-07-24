@@ -1,0 +1,15 @@
+diff --git a/configure b/configure
+index 2711b18..619d6c2 100755
+--- a/configure
++++ b/configure
+@@ -8461,6 +8461,10 @@ aix[4-9]*)
+   lt_cv_deplibs_check_method=pass_all
+   ;;
+ 
++openedition)
++  lt_cv_deplibs_check_method=pass_all
++  ;;
++
+ beos*)
+   lt_cv_deplibs_check_method=pass_all
+   ;;
