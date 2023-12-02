@@ -1,4 +1,4 @@
-# bump: libpcre-version /PCRE_VERSION="(.*)"/ https://sourceforge.net/projects/pcre/files/pcre/|re:/latest(.*)pcre-([\d.]+).tar./$2/|semver:*
+# bump: libpcre-version /PCRE_VERSION="(.*)"/ https://sourceforge.net/projects/pcre/files/pcre/|re:/Click.to.enter.([\d.]+)"/|semver:*
 PCRE_VERSION="8.45"
 
 export ZOPEN_BUILD_LINE="STABLE"
