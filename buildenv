@@ -1,7 +1,10 @@
-export ZOPEN_GIT_URL=""
-export ZOPEN_TARBALL_URL="https://sourceforge.net/projects/pcre/files/pcre/8.45/pcre-8.45.tar.gz"
-export ZOPEN_TARBALL_DEPS="make coreutils diffutils grep libtool zoslib"
-export ZOPEN_TYPE="TARBALL"
+# bump: libpcre-version /PCRE_VERSION="(.*)"/ https://sourceforge.net/projects/pcre/files/pcre/|re:/Click.to.enter.([\d.]+)"/|semver:*
+PCRE_VERSION="8.45"
+
+export ZOPEN_BUILD_LINE="STABLE"
+export ZOPEN_DEV_URL=""
+export ZOPEN_STABLE_URL="https://sourceforge.net/projects/pcre/files/pcre/${PCRE_VERSION}/pcre-${PCRE_VERSION}.tar.gz"
+export ZOPEN_STABLE_DEPS="make coreutils diffutils grep libtool zoslib"
 
 zopen_check_results()
 {
