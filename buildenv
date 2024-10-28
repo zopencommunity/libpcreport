@@ -2,6 +2,7 @@
 PCRE_VERSION="8.45"
 
 export ZOPEN_BUILD_LINE="STABLE"
+export ZOPEN_CATEGORIES="library"
 export ZOPEN_DEV_URL=""
 export ZOPEN_STABLE_URL="https://sourceforge.net/projects/pcre/files/pcre/${PCRE_VERSION}/pcre-${PCRE_VERSION}.tar.gz"
 export ZOPEN_STABLE_DEPS="make coreutils diffutils grep libtool zoslib"
